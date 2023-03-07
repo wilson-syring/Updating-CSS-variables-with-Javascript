@@ -1,8 +1,21 @@
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
 @font-face {
     font-family: Starjhol;
     src: url("Starjhol copy.ttf");
 }
 
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+.hl{
+    color: var(--base);
+}
 body {
     text-align: center;
     background: #193549;

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Starjhol;
+    src: url("Starjhol copy.ttf");
+}
+
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: Starjhol;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+input {
+    width: 100px;
+}
